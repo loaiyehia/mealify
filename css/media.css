@@ -1,0 +1,200 @@
+@media screen and (max-width: 759px) {
+  #nav-bar .container {
+    flex-direction: row;
+  }
+  #nav-bar .container ul.nav-list {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    right: 0px;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+    display: flex;
+    align-items: flex-start;
+    background-color: #ffffff;
+    padding-left: 80px;
+    padding-top: 30px;
+    overflow: hidden;
+  }
+  /* #nav-bar .container ul li{
+    width: fit-content;
+  } */
+
+  #nav-bar .container #menu-icon {
+    display: block;
+    margin-top: 10px;
+    margin-left: -20px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  /* nav-bar */
+  /* #nav-bar {
+    position: static;
+  }
+  #nav-bar .container {
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    margin-left: 40px;
+  }
+  #nav-bar .container .nav-list {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  #nav-bar .container .nav-list li {
+    margin-bottom: 10px;
+  } */
+
+  /* home */
+
+  #home .container {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  #home .container .pic,
+  #home .container .main-header {
+    width: 100%;
+  }
+  #home .container .main-header {
+    text-align: center;
+  }
+  #home .container .main-header .btns {
+    justify-content: center;
+  }
+  /* chefs */
+  .chef-cards {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .card {
+    width: 100%;
+  }
+  .chef-cards .card:hover {
+    transform: scale(1);
+  }
+  /* gallery */
+
+  /* .grid {
+    flex-direction: column;
+  } */
+  .meal:hover {
+    transform: none;
+  }
+
+  /* contact */
+  .address,
+  .email,
+  .phone,
+  .opening-hours {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  form .input-group {
+    flex-direction: column;
+  }
+  form .input-group input {
+    width: 100%;
+  }
+  /* footer */
+  .subscription {
+    order: 1;
+    width: 100%;
+  }
+  .about,
+  .cont-details {
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 568px) and (max-width: 992px) {
+  /* #nav-bar {
+    position: static;
+  } */
+  /* #home .container {
+    flex-direction: column-reverse;
+    gap: 50px;
+  } */
+  #home .container .pic,
+  #home .container .main-header {
+    width: 100%;
+  }
+  #home .container .main-header {
+    text-align: center;
+  }
+  #home .container .main-header .btns {
+    justify-content: center;
+  }
+
+  /* nav-bar */
+  /* #nav-bar .container {
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    margin-left: 40px;
+  } */
+  /* #nav-bar .container .nav-list {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  #nav-bar .container .nav-list li {
+    margin-bottom: 10px;
+  } */
+  /* chefs */
+  .chef-cards {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .card {
+    width: 45%;
+  }
+  /* gallery */
+  /* .grid {
+    flex-wrap: wrap;
+  }
+  .column {
+    width: 45%;
+  } */
+
+
+  /* contact */
+  .address,
+  .email,
+  .phone,
+  .opening-hours {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #contact .container .details .icon {
+    margin-bottom: 10px;
+  }
+  .details-content {
+    align-items: center;
+  }
+  form .input-group {
+    flex-direction: column;
+  }
+  form .input-group input {
+    width: 100%;
+  }
+
+  /* footer */
+  .subscription {
+    order: 1;
+    width: 100%;
+  }
+  .about,
+  .cont-details {
+    width: 48%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #nav-bar {
+    position: sticky;
+  }
+}
